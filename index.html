@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>EBE Lab — Evelyn Dooley</title>
+<meta name="description" content="EBE Lab — fine wood and metal arts by Evelyn Dooley, Somerville, MA.">
+<link rel="icon" href="assets/web/ebelogo.webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="slider" id="slider" aria-label="portfolio slideshow"></div>
+
+<header class="topbar">
+  <a class="logo" href="/" aria-label="ebe lab home">
+    <img src="assets/web/ebelogo white.webp" alt="EBE Lab">
+  </a>
+  <nav class="store-buttons" aria-label="shops">
+    <a class="round-btn" id="etsy-btn" href="#" target="_blank" rel="noopener" aria-label="Etsy shop">
+      <span>Etsy</span>
+    </a>
+    <a class="round-btn" id="shopify-btn" href="#" target="_blank" rel="noopener" aria-label="Shopify store">
+      <span>Shop</span>
+    </a>
+  </nav>
+</header>
+
+<aside class="side-menu" aria-label="main menu">
+  <button type="button" class="menu-box" data-panel="about">About</button>
+  <button type="button" class="menu-box" data-panel="contact">Contact</button>
+</aside>
+
+<button type="button" class="slider-nav prev" id="prev" aria-label="previous image">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+<button type="button" class="slider-nav next" id="next" aria-label="next image">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<section class="panel" id="about-panel" aria-hidden="true">
+  <button type="button" class="panel-close" aria-label="close">&times;</button>
+  <div class="panel-inner">
+    <img class="panel-img" src="assets/web/20251026_19303021.webp" alt="">
+    <h2>About</h2>
+    <p>EBE Lab is a small wood and metal shop in Somerville, MA, run by Evelyn Dooley.</p>
+    <p>Locally sourced hardwoods — walnut, cherry, olive, maple, satinwood — turned and shaped into heirloom pieces built to be used: cooking spoons with properly proportioned bowls and slightly squared edges for getting into corners, hand-turned bowls, and other handmade goods made one at a time.</p>
+    <p>Find EBE Lab at markets around Boston, in the online shop, or on Etsy.</p>
+  </div>
+</section>
+
+<section class="panel" id="contact-panel" aria-hidden="true">
+  <button type="button" class="panel-close" aria-label="close">&times;</button>
+  <div class="panel-inner">
+    <img class="panel-img" src="assets/web/20260412_122208.webp" alt="">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:evelyn@evelyndooley.com">evelyn@evelyndooley.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/ebe.lab/" target="_blank" rel="noopener">@ebe.lab</a></p>
+    <p>Etsy: <a href="https://www.etsy.com/shop/ebelab" target="_blank" rel="noopener">etsy.com/shop/ebelab</a></p>
+    <p>Shop: <a href="https://lab.evelyndooley.com" target="_blank" rel="noopener">lab.evelyndooley.com</a></p>
+  </div>
+</section>
+
+<div class="panel-backdrop" id="panel-backdrop" aria-hidden="true"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

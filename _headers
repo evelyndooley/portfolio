@@ -1,0 +1,8 @@
+/assets/slider-web/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/web/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
